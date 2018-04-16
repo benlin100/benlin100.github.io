@@ -15,5 +15,34 @@ We had to add some context to the story, so we assumed that the food trucks will
 ### Analysis  
 Here’s a graph that highlights how we determined if a station is a morning destination, evening destination, or a hub:  
 
-![image tooltip here](/images/pic.png)
+![image tooltip here](/images/pic.png)  
+  
+To start, we had to calculate the ratio of exits to total traffic (y-axis) and tracked that throughout the hours of a day (x-axis). The dotted line on the graph represents when the ratio of exits is equal to entries, so anything that’s above the dotted line is a higher ratio of exits, and anything below is a lower ratio of exits.  
+  
+Starting from the left graph, we can see that the World Trade Center station is a morning destination because it has a high ratio of exits in the morning time and a low ratio of exits in the evening time. This intuitively makes sense as the WTC is a business-heavy location.  
+  
+In the middle graph, we can see that Aqueduct Station is a evening destination because there’s a high ratio level of exits in the evening time, and a low ratio in the morning time. This also intuitvely makes sense as Aqueduct is more of a residential area.  
+  
+In the right graph, we can see that Grand Central is a hub destination because the line floats a lot closer to 0.5. That’s because in a hub like Grand Central, there’s always a large flow of people exiting and entering throughout the day which brings the ratio closer to equal.  
+  
+  
+  
+As next steps, we wanted to expand that initial classification across all stations, and determine which stations had both a high ratio of exits and  substantial station size. We graphed a scatter plot of all the Stations with regards to their ratio of exits (y-axis) and station size (x-axis). 
+
+Here is one of the 4 graphs that highlights Weekday Dinners:  
+![image tooltip here](/images/pic2.png)  
+*(3 different graphs for Weekday - Breakfast/Lunch, Weekend - Breakfast/Lunch, Weekend - Dinner)
+  
+We are most interested in the stations that fall well above the 0.5 ratio of exits, as well as those with a high numbers of exiting riders. Those stations, on the plot, lie in the upper middle-right region. We did this analysis for the other 3 charts to determine the best location for the varying times and days. 
+
+### Summary  
+We narrowed down the choices of stations based on both our analysis and domain knowledge. We took into consideration that we wanted to have a high level of geographic diversity (i.e. not all food trucks parked in lower Manhattan)  Additionally, even though Newark Penn Station shows up as high on our list, we know that it is a transit center, so even people exiting the PATH train will likely be getting on another train and not be amenable to purchasing burritos. For weekends, our data analysis didn’t show as clear of patterns, but we understand the top tourist destinations are those in midtown and lower manhattan during the morning, and the residential neighborhoods at dinner are spread more evenly across boroughs.  
+
+If given more time, we would have loved to analyze the trend in our metrics over the course of the previous year.  It’d also be interesting to pull in other food truck location data by accessing the Twitter API. Additionally, we would perform surveys in various neighborhoods around New York to understand customer tastes.  
+
+This first project at Metis was challenging yet exciting. I understand the journey is long and treacherous, but I’m looking forward to the rest of the bootcamp! 
+
+
+
+
 
