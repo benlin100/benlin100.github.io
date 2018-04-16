@@ -36,13 +36,11 @@ Here is one of the 4 graphs that highlights Weekday Dinners:
 We are most interested in the stations that fall well above the 0.5 ratio of exits, as well as those with a high numbers of exiting riders. Those stations, on the plot, lie in the upper middle-right region. We did this analysis for the other 3 charts to determine the best location for the varying times and days. 
 
 ### Summary  
+We summarized the results here:  
+![image tooltip here](/images/pic3.png)  
+
 We narrowed down the choices of stations based on both our analysis and domain knowledge. We took into consideration that we wanted to have a high level of geographic diversity (i.e. not all food trucks parked in lower Manhattan)  Additionally, even though Newark Penn Station shows up as high on our list, we know that it is a transit center, so even people exiting the PATH train will likely be getting on another train and not be amenable to purchasing burritos. For weekends, our data analysis didn’t show as clear of patterns, but we understand the top tourist destinations are those in midtown and lower manhattan during the morning, and the residential neighborhoods at dinner are spread more evenly across boroughs.  
 
 If given more time, we would have loved to analyze the trend in our metrics over the course of the previous year.  It’d also be interesting to pull in other food truck location data by accessing the Twitter API. Additionally, we would perform surveys in various neighborhoods around New York to understand customer tastes.  
 
 This first project at Metis was challenging yet exciting. I understand the journey is long and treacherous, but I’m looking forward to the rest of the bootcamp! 
-
-
-
-
-
