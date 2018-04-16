@@ -15,4 +15,5 @@ We had to add some context to the story, so we assumed that the food trucks will
 ### Analysis  
 Here’s a graph that highlights how we determined if a station is a morning destination, evening destination, or a hub:  
 
-![an image alt text]({{ site.baseurl }}/pic.png "an image title")
+![image tooltip here](/images/pic.png)
+
