@@ -21,7 +21,7 @@ I first looked at the distribution of my predictor variable, salary, and realize
 ### *Distribution of Salary and sqrt(Salary)*
 Sqrt(Salary)               |  Salary
 :-------------------------:|:-------------------------:
-![](/images/blog.png)  |  ![](/images/blog1.png)  
+![](/images/blog.png)      |  ![](/images/blog1.png)  
   
 The two graphs above shows how sqrt(salary) provides a more normal distribution than just salary. Furthermore, the sqrt(salary) also showed significantly less heteroskedasticity than the raw value of salary. Because of these reasons, I moved forward with the sqrt(Y) being my predictor variable. 
   
