@@ -19,7 +19,7 @@ While putting together my final dataset, I ran into a couple of minor issues. So
 I first looked at the distribution of my predictor variable, salary, and realized I needed to apply a square-root transformation to normalize the data.   
   
 ### *Distribution of Salary and sqrt(Salary)*
-Solarized dark             |  Solarized Ocean
+Sqrt(Salary)               |  Salary
 :-------------------------:|:-------------------------:
 ![](/images/blog.png)  |  ![](/images/blog1.png)  
   
