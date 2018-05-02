@@ -18,9 +18,10 @@ While putting together my final dataset, I ran into a couple of minor issues. So
 ### Analysis
 I first looked at the distribution of my predictor variable, salary, and realized I needed to apply a square-root transformation to normalize the data.   
   
-### *Distribution of Salary and sqrt(Salary)*  
-![image tooltip here](/images/blog.png)  
-![image tooltip here](/images/blog1.png)  
+### *Distribution of Salary and sqrt(Salary)*
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](/images/blog.png)  |  ![](/images/blog1.png)  
   
 The two graphs above shows how sqrt(salary) provides a more normal distribution than just salary. Furthermore, the sqrt(salary) also showed significantly less heteroskedasticity than the raw value of salary. Because of these reasons, I moved forward with the sqrt(Y) being my predictor variable. 
   
