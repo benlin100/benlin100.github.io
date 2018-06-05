@@ -5,7 +5,7 @@ title: Predicting NBA Salaries
 
 ![image tooltip here](/images/kt.png)  
   
-3 weeks of Metis is in the books! For the past 2 weeks, we’ve been learning about web scraping with BS4 and Selenium to all the capabilities of Linear Regression. For my second project, I used NBA player statistics to build a model that predicts their salary.   
+The 3rd week of Metis is done! For the past 2 weeks, we’ve been learning about web scraping with BS4 and Selenium to all the capabilities of Linear Regression. For my second project, I used NBA player statistics to build a model that predicts their salary.   
   
 Imagine being an NBA agent for Golden State Warriors’s Klay Thompson. His contract is expiring at the end of this season and your job is to maximize his value. The question then lies - what is the maximum amount of money you should negotiate for? This is the motivation behind this project - and the answer is, $20.9 million. 
 This is the process behind the answer:  
