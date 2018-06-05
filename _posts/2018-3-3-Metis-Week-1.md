@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 1 - Optimal Food Truck Locations
+title: Optimal Food Truck Locations
 --- 
   
 ![image tooltip here](/images/burrito.jpg)  
