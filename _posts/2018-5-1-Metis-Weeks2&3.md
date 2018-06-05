@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Week 2&3 - Predicting NBA Salaries
+title: Predicting NBA Salaries
 --- 
+
+![image tooltip here](/images/Screen Shot 2018-06-05 at 2.13.42 PM.png)  
   
 3 weeks of Metis is in the books! For the past 2 weeks, we’ve been learning about web scraping with BS4 and Selenium to all the capabilities of Linear Regression. For my second project, I used NBA player statistics to build a model that predicts their salary.   
   
