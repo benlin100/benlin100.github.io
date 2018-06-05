@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi everyone! Welcome to my blog :)  
+My name is Ben and I am currently enrolled in Metis's Data Science bootcamp. I graduated in economics from UC Berkeley in 2016, then worked at a machine learning startup, Vidora. 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I'd love to connect and grab some coffee/food - please don't hesitate to reach out!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[benlin100@gmail.com](mailto:benlin100@gmail.com)
