@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Week 1 - Using MTA Data to Optimize Food Truck Locations
+title: Week 1 - Optimal Food Truck Locations
 --- 
   
+![image tooltip here](/images/burrito.jpg)  
   
 First week of Metis is in the books! While I was pretty nervous and anxious going in, I had a great time. From meeting the instructors to my classmates, everyone at Metis is like-minded and dedicated to learning which makes a very positive and inclusive atmosphere. On the first day, we hit the ground running with Project Benson - a Data Exploratory Project that used the MTA Turnstile Data in New York.  
 
