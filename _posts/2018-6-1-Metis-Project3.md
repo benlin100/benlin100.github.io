@@ -1,4 +1,9 @@
-![image tooltip here](/images/title.png)  
+---
+layout: post
+title: How Random Is Your Forest?
+--- 
+  
+![image tooltip here](/images/t.png)  
   
 ### Backstory & Motivation  
 Imagine the forest department in Colorado is looking to expand the National Roosevelt Forest by developing the surrounding land. They have access to an open dataset that tracks cartographic and environmental variables for 30x30m sections of the forest. Their objective is to use this dataset to expedite the development of the surrounding land. Specifically, being able to predict the predominant tree type in an area, so they can provide the proper nutrients and irrigation to maximize growth.  
