@@ -1,6 +1,5 @@
 ---
 layout: post
-title: How Random Is Your Forest? 
 --- 
 
 ![image tooltip here](/images/title.png)  
