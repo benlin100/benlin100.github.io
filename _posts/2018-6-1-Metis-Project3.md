@@ -1,7 +1,3 @@
----
-layout: post
---- 
-
 ![image tooltip here](/images/title.png)  
   
 ### Backstory & Motivation  
