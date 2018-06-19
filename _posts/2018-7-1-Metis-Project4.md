@@ -3,14 +3,12 @@ layout: post
 title: Musician's Alter Egos
 --- 
   
-![image tooltip here](/images/thetitle.jpg)  
+![image tooltip here](/images/images/l2.png)   
   
 Throughout time, artists have always adopted alter egos to express different sides of their personality. From Prince and his female alter ego Camille, to Eminem and his evil counterpart, Slim Shady. For this project, I focused on Logic, a hip-hop artist known for his range of diction, complex rhyme schemes, and captivating storytelling. While Logic stands for peace, love, and positivity, he also has 2 alter egos: Young Sinatra and Bobby Tarantino. Young Sinatra is his young and vengeful persona, motivated by success and money. On the other hand, Bobby Tarantino is his successful persona, where he’s achieved all his dreams and is boldly outspoken.  
   
 ### Logic, Young Sinatra, or Bobby Tarantino?      
-![image tooltip here](/images/l2.png)  
-  
-    
+      
 My final dataset consisted of lyrics from six albums, two under each persona. Each row in my dataframe was one line of a song, with 2,000 rows under each persona.  
     
 Normally, my next step would be to clean and normalize the text. However in this case, each of Logic’s alter egos have their own unique idiosyncrasies, so I limited normalizing to preserve those patterns.  
