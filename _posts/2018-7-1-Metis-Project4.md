@@ -16,7 +16,7 @@ Normally, my next step would be to clean and normalize the text. However in this
   
 My first objective was to use topic modeling algorithms to group his lyrics text into 3 distinct themes. I was most interested in comparing how the models differentiated his text to his 3 alter egos and what each represent. My second objective was to build a model that allows a user to enter any phrase, and it will predict if it came from Logic, Young Sinatra, or Bobby Tarantino.  
   
-##### Tools & Algorithms:  
+#### Tools & Algorithms:  
   
 For scraping lyrics data, I used a nifty built-in package called ‘thecypher’, which scrapes lyrics from lyricwiki.com and formats it into a pandas dataframe. Unfortunately some of his earlier albums weren’t on lyricwiki.com so I had to use Beautiful Soup to scrape the remaining lyrics.  
   
@@ -24,7 +24,7 @@ For featuring engineering and preparing my data for the models, here are the mai
   
 For unsupervised/topic modeling, I used PCA (principal component analysis) and LDA (latent dirichlet allocation). For my predictive model, I experimented with 3 main algorithms: Support Vector Classifiers, Multi N.B., and KN Classifier.  
   
-##### Objective 1 - Topic Modeling: 
+#### Objective 1 - Topic Modeling: 
   
 Once my data was in a good state, I ran LDA, a topic modeling algorithm. LDA essentially processes text and creates a number of topics that specific words are attributed to. I was especially interested to see if the topics LDA created would be synonymous with the 3 topics under his alter egos. As a quick reminder, here is what each of his alter egos is associated with: (Logic: peace, love, and society), (Young Sinatra: success, motivated, vengeful), (Bobby Tarantino: outspoken, fun, carefree).  
   
@@ -36,7 +36,7 @@ The terms under Topic 1 are extremely synonymous with Logic and what he represen
   
 In terms of what I personally took away, Young Sinatra and Bobby Tarantino aren’t as different as I had thought. The data shows that the topics they cover have a lot of similarities.  
 
-##### Objective 2 - Predictive Model:  
+#### Objective 2 - Predictive Model:  
   
 My next objective was creating a model that accurately predicts which alter ego a phrase likely came from. Here is a snapshot of the permutations of features and algorithms I tried, and their respective accuracy score:  
   
