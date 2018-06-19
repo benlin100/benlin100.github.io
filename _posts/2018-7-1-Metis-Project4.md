@@ -46,7 +46,9 @@ My next objective was creating a model that accurately predicts which alter ego 
   
 With the tf-idf features and the multinomial Naive Bayes model, I came to my best test-set accuracy score of 0.674. Tf-idf, which stands for ‘term frequency–inverse document frequency’, is a numerical statistic that reflect how important a word is to the overall text. Unlike Bag of Words, which simply tracks the number of counts for each word, tf-idf puts each word in relation to the other words in the overall piece of text. Using tf-idf instead of Bag of Words is especially important in hip-hop lyrics because filler words are commonly used. Tf-idf is able to capture the most important significant words for each of his 3 personas, which is why it gave me the best accuracy score.  
 
-![View Demo here (press View Raw)](/images/logic_demo.mp4)  
+Here is a snapshot of the model in work:  
+![image tooltip here](/images/logic_demo.png)  
+All 3 phrases are random and they all accurately classify to the correct alter ego.  
   
 I really enjoyed working on this project because I’ve been listening to Logic grow throughout his career. I’ve always been intrigued by his different characters and his lyrical diversity.  I’ve never went into a project with preconceived notions of what I wished the data would show, so it was very interesting to compare my intuition with what the data actually showed. I hope you enjoyed the read!  
   
