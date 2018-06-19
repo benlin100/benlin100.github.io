@@ -51,7 +51,7 @@ All 3 phrases are random and they all accurately classify to the correct alter e
   
 I really enjoyed working on this project because I’ve been listening to Logic grow throughout his career. I’ve always been intrigued by his different characters and his lyrical diversity.  I’ve never went into a project with preconceived notions of what I wished the data would show, so it was very interesting to compare my intuition with what the data actually showed. I hope you enjoyed the read!  
   
-If interested, you can find more information on my Github: https://github.com/benlin100/artist_alter_egos  
+If interested, you can find more information on my Github below. 
   
 Best,  
 Ben
