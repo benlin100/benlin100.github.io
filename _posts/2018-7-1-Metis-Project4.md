@@ -1,18 +1,3 @@
-<!-- using the truncate filter -->
-{% for post in site.posts limit:10 %}
-   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-   <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-   {% if post.content.size > 2000 %}
-      {{ post.content | truncatewords: 300 }} <!-- bad! content gives you rendered html and you will truncate in the middle of a node -->
-      <a href="{{ post.url }}">read more</a>
-   {% else %}
-      {{ post.content }}
-   {% endif %}
-   <hr>
-{% endfor %}
-
-
-
 ---
 layout: post
 title: Musician's Alter Egos
@@ -22,10 +7,13 @@ title: Musician's Alter Egos
   
 ### Logic, Young Sinatra, or Bobby Tarantino?  
 Throughout time, artists have always adopted alter egos to express different sides of their personality. From Prince and his female alter ego Camille, to Eminem and his evil counterpart, Slim Shady. For this project, I focused on Logic, a hip-hop artist known for his range of diction, complex rhyme schemes, and captivating storytelling. While Logic stands for peace, love, and positivity, he also has 2 alter egos: Young Sinatra and Bobby Tarantino. Young Sinatra is his young and vengeful persona, motivated by success and money. On the other hand, Bobby Tarantino is his successful persona, where he’s achieved all his dreams and is boldly outspoken.  
-  
-<!--break-->
     
-![image tooltip here](/images/l2.png)    
+![image tooltip here](/images/l2.png)  
+  
+  
+  
+  
+  
     
 My final dataset consisted of lyrics from six albums, two under each persona. Each row in my dataframe was one line of a song, with 2,000 rows under each persona.  
     
@@ -71,16 +59,3 @@ If interested, you can find more information on my Github: https://github.com/be
   
 Best,  
 Ben
-  
-<!-- using the split filter -->
-{% for post in site.posts limit:10 %}
-   <div class="post-preview">
-   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-   <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
-   {{ post.content | split:'<!--break-->' | first }}
-   {% if post.content contains '<!--break-->' %}
-      <a href="{{ post.url }}">read more</a>
-   {% endif %}
-   </div>
-   <hr>
-{% endfor %}
